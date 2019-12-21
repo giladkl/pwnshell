@@ -1,1 +1,5 @@
 Creators: Omer Haber, Gilad Kleinman
+
+installation:
+pip install .
+then you'll have 'pwnshell' in your path

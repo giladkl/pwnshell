@@ -91,7 +91,7 @@ def pwnshell_write(pty_fd, backup_term_attr):
         os.write(sys.stdout.fileno(), output_str)
 
 
-if __name__ == "__main__":
+def main():
     print_welcome()
 
     backup_term_attr = termios.tcgetattr(0)
@@ -114,3 +114,6 @@ if __name__ == "__main__":
             pwnshell_recv(pty_fd, backup_term_attr)
         else:
             pwnshell_write(pty_fd, backup_term_attr)
+
+if __name__ == '__main__':
+    main()
