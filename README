@@ -1,4 +1,4 @@
-Creators: Omer Haber, Gilad Kleinman
+Creators: Omer Haber, Gilad Kleinman, Tom Gilon
 
 installation:
 pip install .
